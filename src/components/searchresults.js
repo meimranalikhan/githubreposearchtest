@@ -160,7 +160,7 @@ const RepositorySearcher = (props) => {
                                                 <Popover.Content>
                                                     {currentRepoIssues.map((currentRepoIssue, index) =>
                                                         <div key={index}>
-                                                            {index <= 5 ?
+                                                            {index <= 4 ?
                                                                 <Row
                                                                     style={{
                                                                         overflow: "hidden",
